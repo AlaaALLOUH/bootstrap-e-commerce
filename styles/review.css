@@ -1,0 +1,115 @@
+.navbar{
+    position: fixed;
+    width:100% ;
+    z-index:1 ;
+}
+
+.nav-item a{
+    color: white !important;
+}
+.dropdown-menu a{
+    color: black !important;
+}
+/* carsoul */
+.carousel-item img{
+    height:100vh ;
+}
+.my-icon{
+    color:blue !important;
+    font-weight: 500;
+    font-size: larger;
+}
+.carousel-caption{
+    background-color: rgba(151, 194, 224, .6);
+   bottom: 12rem;
+
+}
+.card{
+  
+  overflow: hidden;
+  height:50vh ;
+  
+  
+}
+
+.card-img-top{
+    height:200px ;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.card-img-top:hover{
+ transform: scale(1.1);
+ transition:all ease 1s ;
+ 
+ 
+
+}
+.cards h2{
+    margin-top: 50px;
+    border-bottom:solid crimson ;
+    display:inline-block;
+    
+}
+/* model */
+
+.modal-body img{
+    width: 200px !important;
+    height: 200px;
+}
+.model-body{
+    display: flex;
+}
+/* products */
+.products img{
+ width:150px ;
+ height: 150px;
+}
+.col-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.col-body p{
+    padding-right: 15px;
+
+}
+/* offcanvous */
+.offcanvas-body img{
+    height:30vh ;
+  width: 60%;
+}
+.offcanvas-body img:hover{
+    transform:skew(-10deg) ;
+    transition:all ease 1s ;
+
+}
+.offcanvas-body button:hover{
+    background-color: crimson;
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+/* about us */
+.about-us{
+    background-image:url('../images/full3.jpg') ;
+    height:60vh ;
+    background-repeat: no-repeat;
+    width:100% ;background-size: cover;
+    margin-top:30px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-blend-mode: overlay;
+    background-color: rgba(91, 90, 90,.8);
+    color: aliceblue;
+    
+    
+}
+footer{
+    width:100% ;
+    min-height:50vh ;
+    background-color: gray;
+    margin-top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family:cairo ;
+}
+/* navbar */
+.navbar{
+    background-color:#017DBF !important;
+   width: 100% !important;
+}
+/* carsoul */
+.carousel-item img{
+    height:100vh ;
+    width:100% !important ;
+}
+.my-icon{
+    color:#017DBF ;
+    font-size:30px ;
+}
+.carousel-caption{
+    background-color: rgba(151, 194, 224, .6);
+    border-radius:15px ;
+    /* معمول الها position:relative === بمعنى اني بقدر اتحكم فيها عن طريق top&bottom */
+    bottom: 12rem;
+    padding:25px ;
+}
+.carousel-caption:hover{
+background-color: rgba(48, 97, 232, .4);
+transition: ease .7s;
+}
+.carousel-caption button:hover{
+    background-color:crimson ;
+    border-radius: 13px;
+    transition: all ease 1s;
+}
+.carousel-indicators button{
+    width:15px !important ;
+    height: 15px !important;
+    border-radius:50% !important;
+    background-color: #017DBF !important;
+}
+.carousel-indicators button:hover{
+    background-color: crimson !important;
+}
+/* products */
+.txt-header{
+   
+    border-bottom:5px solid crimson ;
+    display: inline-block;
+}
+
+.card{
+    margin-bottom:20px ;
+    overflow: hidden;
+    
+}
+
+.card img{
+    width:100%;
+    height:300px ;
+    
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: all ease 1s;
+    cursor: pointer;
+    
+}
+.blue{
+    color: #017DBF;
+}
+.bluecimon{
+    color: #017DBF;
+    margin:15px 0px ;
+}
+.bluecimon:hover{
+    color:crimson ;
+    transition:all ease 1s ;
+    cursor: pointer;
+}
+.products button:hover{
+   background-color: crimson;
+   border-radius:20px ;
+   transform: scale(1.1);
+   transition:all ease 1s; 
+}
+.modal-footer button:hover{
+    background-color: crimson;
+    border-radius:20px ;
+    transform: scale(1.1);
+    transition:all ease 1s; 
+}
+/* Contact */
+.contact{
+    background-image:url('../images/full2.jpg') ;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     min-height: 60vh;
+   }
+   .input-group button{
+    border-radius:20px 0px 0px 20px !important ;
+    width:150px ;
+   }
+   .input-group button:hover{
+    background-color: crimson;
+    border-radius:10px ;
+    
+    transition:all ease 1s; 
+   }
+   /* order */
+   .order .row{
+    margin-bottom: 25px;
+   }
+   .order button:hover{
+    background-color: crimson;
+    border-radius:10px ;
+    transform:scale(1.1) ;
+    transition:all ease 1s; 
+
+   }
+  
+   .bestSelling img:hover{
+    transform: rotate(5deg) scale(1.1);
+    transition:all ease 1s ;
+   }
+
+/* Acoordion button ... */
+.accordion-button{
+    display: flex;
+    justify-content: center;
+    background-color: #017DBF !important;
+}
+   .accordion-button::after{
+    /* عشان اشيل هاي العلامة ^ من على الزر */
+    display: none;
+   }
+/* الخدمات  */
+
+.lottie-body{
+    margin-top:100px !important ;
+}
+.lottie-body h4{
+    color: crimson !important;
+    
+}
+ 
+ footer{
+    background-color: #017DBF !important;
+    padding: 35px;
+   
+   min-height:40vh ;
+    display: flex;
+    
+    align-items: center;
+    
+ }
+ footer a{
+    text-decoration: none;
+    
+ }
+ footer a:hover{
+    color: crimson !important;
+ }
+
+
+
+
+
+
+
+
+
+/* off-canvas */
+.off-canvas-img{
+    width:280px ;
+    height:250px ;
+}
+.off-canvas-img:hover{
+    /* شكل جمالي عندما يصبح cardاوس على الصورة  */
+transform:skew(-10deg);
+transition: all ease 1s;
+
+}
+.off-canvas-p{
+    color: #017DBF;
+}
+.D-btn button:hover{
+    background-color: crimson !important;
+}
+/* scrollbar  */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:crimson;
+    border-radius:3px ;
+  }
+ 
